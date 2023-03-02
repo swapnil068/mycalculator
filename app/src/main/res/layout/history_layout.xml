@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:elevation="8dp"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/Theme.AppCompat.NoActionBar"
+    app:popupTheme="@style/Theme.AppCompat.NoActionBar">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="left"
+        android:dividerPadding="8dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:showDividers="end">
+
+
+        <ImageView
+            android:id="@+id/backbutton"
+            android:layout_width="35dp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@drawable/b">
+
+
+        </ImageView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/calcHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:text=" History"
+        android:textColor="#80c0c2"
+        android:textSize="@dimen/_21ssp"
+        android:textStyle="bold"></TextView>
+
+
+</androidx.appcompat.widget.Toolbar>
+
